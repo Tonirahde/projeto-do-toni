@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto do toni</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <nav>
+        <ul> 
+            <li>
+                <a href="#about">Sobre mim</a>
+            </li>
+            <li>
+                <a href="#TI">Meu objetivo no TI</a>
+            </li>
+            <li>
+                <a href="#social">Redes sociais</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+
+        <div class="center">
+            <img src="./img/toni.jpg">
+        </div>
+        <h1>Antonio Rahde</h1>
+        <h2>Meu primeiro projeto</h2>
+    </header>
+
+    <main>
+    <div class="container-texto">
+        <section id="about">
+            <h3>Sobre mim</h3>
+            <p>Tenho 18 anos , nasci no RS e acabei de formar do ensino médio , 
+            acabei despertando uma grande curiosidade pela area de TI e programacao assim tambem como inteligencia articial ,
+            pois acho muito legal a ideia de criar um softwere que consiga responder sozinho e automatizar tarefas. 
+            Sou um cara muito tranquilo com a vida , gosto muito de jogar video games desde pequeno , sair com os amigos e praticar esportes.</p>
+        </section>
+        <section id="ti">
+            <h3>Meu objetivo no TI</h3>
+            <p>Tenho 18 anos , nasci no RS e acabei de formar do ensino médio , acabei 
+            despertando uma grande curiosidade pela area de TI e programacao assim tambem como inteligencia articial , 
+            pois acho muito legal a ideia de criar um softwere que consiga responder sozinho e automatizar tarefas. 
+            Tenho como pricipal ideia ao entrar nesse mundo da Ti , o meu grande de sonho de gerir e rodar minha propria empresa de desenvolimento .</p>
+        </section>
+        <section id="social">
+            <h3>Redes sociais</h3>
+            <p>Me siga em minhas redes socias para assim poder acompanhar essa jornada minha de aprendizado e ficar por dentro de como vai minha jornada no mundo da Ti .</p>
+        </section>
+    </div>
+    </main>
+
+    <section id="subscribe">
+        <h3>Insira seu email para se manter atualizado!</h3>
+        <form action="processar-formulario.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <button type="submit">Inscrever-se</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container-social">
+            <a href="https://www.instagram.com/antonio.rahde/" target="_blank">
+                <img id="instagram-img"src="./img/instagram.png"/>
+                <p>Instagram</p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCiEYVUjpW4B4zpfVnyKvj0A" target="_blank">
+                <img id="youtube-img" src="./img/youtube.png"/>
+                <p id="youtube-text">Youtube</p>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
